@@ -15,7 +15,6 @@ env/
 .venv/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -26,8 +25,6 @@ env/
 Thumbs.db
 
 # Secrets (belt and suspenders)
-.env
-.env.local
 *.key
 *.pem
 
@@ -53,3 +50,6 @@ temp_interactive_push.bat
 
 # Fonts (generated/local)
 public/fonts/
+.gitignore
+config.bat
+node_modules
